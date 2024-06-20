@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #000000;
+}
+header {
+    height: 30px;
+    background-color: #000000;
+    color: white;
+    padding: 15px 0px 5px 10px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display:inline;
+    margin: 30px 
+}
+nav ul li a{
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+}
+div#aboutme{
+    display: grid;
+    padding: 30px;
+    text-align: center;
+}
+div.name{
+    padding: 20px; 
+}
+div.name h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+div.name h3{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+div.about{
+    padding: 20px;
+}
+div.about p{
+    font-size: 25px;
+}
+div.education{
+    padding: 30px;
+}
+div.education h1{
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 550;
+    font-size: 40px;
+}
+div.education h2{
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 450;
+    font-size: 40px;
+}
+div.edu{
+    display: grid;
+}
+div.school{
+    display: inline-flex;
+    padding-top: 20px;
+}
+div.schoolname{
+    margin-left: 30px;
+    padding: 0px 20px 10px 10px;
+}
+div.edu h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 450;
+}
+div.edu h3{
+    font-weight: 300;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div#skills{
+    padding-left: 60px;
+    display: block;
+}
+div#skills h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.techskills{
+    display: inline-flex;
+    column-gap: 60px;
+    padding: 20px 10px 10px 10px;
+}
+div.techstacks {
+    text-align: center;
+}
+div.techstacks img{
+    height: 100px;
+}
+div#experience{
+    padding: 60px;
+}
+div#experience h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:550;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+div.internship{
+    display: inline-flex;
+    column-gap: 100px;
+    margin: 10px;
+}
+div.company h2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+div.company h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    margin: 15px;
+}
+div.company{
+    border: 2px solid black;
+    width: 610px;
+    padding: 10px;
+    text-align: center;
+    background-color: #eae9e9;
+}
+div#projects{
+    display: grid;
+    padding: 0px 60px 0px 60px;
+}
+div.details{
+    padding-left: 20px;
+}
+div#projects h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:550;
+    font-size: 40px;
+}
+div#projects h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 35px;
+    font-weight: 450;
+}
+div#projects h3{
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+}
+div#contact{
+    padding: 60px 60px 50px 60px;
+}
+div#contact h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:550;
+    font-size: 40px;
+    padding: 0px 0px 20px 0px;
+    margin-top: 0px;
+}
+div.contactid{
+    padding-left: 30px;
+}
